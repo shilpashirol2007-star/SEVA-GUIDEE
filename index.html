@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SevaGuide | Public Service Guide</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="#" class="logo">
+        <span class="logo-icon">S</span>
+        <span>
+            SevaGuide
+            <small>PUBLIC SERVICE GUIDE</small>
+        </span>
+    </a>
+
+    <span class="badge">● DEMO PROJECT</span>
+</header>
+
+<main>
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                ✦ THE RIGHT SERVICE. THE RIGHT DIRECTION.
+            </p>
+
+            <h1>
+                Government services,<br>
+                <span>made easier to understand.</span>
+            </h1>
+
+            <p class="description">
+                Not sure where to begin? Tell us what you need.
+                Get a simple starting point and a checklist to
+                help you prepare.
+            </p>
+
+            <div class="benefits">
+                <span>✓ Simple guidance</span>
+                <span>✓ Easy to understand</span>
+                <span>✓ No login required</span>
+            </div>
+
+        </div>
+
+        <div class="illustration">
+            <div class="circle circle-one"></div>
+            <div class="circle circle-two"></div>
+
+            <div class="document">
+                <div class="document-icon">▤</div>
+                <div class="document-line"></div>
+                <div class="document-line"></div>
+                <div class="document-line short"></div>
+                <div class="approved">✓ READY</div>
+            </div>
+
+            <div class="floating-icon">✓</div>
+            <div class="floating-star">✦</div>
+        </div>
+
+    </section>
+
+
+    <section class="workspace">
+
+        <div class="panel">
+
+            <p class="section-label">01 — YOUR NEED</p>
+
+            <h2>What are you looking for?</h2>
+
+            <p class="muted">
+                Describe the certificate or proof you need.
+            </p>
+
+            <form id="guideForm">
+
+                <label for="need">
+                    Tell us what you need
+                </label>
+
+                <textarea
+                    id="need"
+                    placeholder="Example: I need residence proof for a college application."
+                    required
+                ></textarea>
+
+                <div class="examples">
+                    <button type="button" class="example"
+                        data-value="I need residence proof for college.">
+                        Residence proof
+                    </button>
+
+                    <button type="button" class="example"
+                        data-value="I need an income certificate.">
+                        Income certificate
+                    </button>
+
+                    <button type="button" class="example"
+                        data-value="I am not sure which certificate I need.">
+                        Not sure
+                    </button>
+                </div>
+
+                <div class="privacy">
+                    🔒 Never enter Aadhaar numbers, PAN, OTPs,
+                    passwords, or other sensitive personal information.
+                </div>
+
+                <button class="primary-button" type="submit">
+                    Find my starting point <span>→</span>
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <div class="panel result-panel">
+
+            <p class="section-label">02 — YOUR STARTING POINT</p>
+
+            <div id="emptyState" class="empty-state">
+
+                <div class="empty-icon">✧</div>
+
+                <h3>Your guidance appears here</h3>
+
+                <p>
+                    Describe your need and click
+                    "Find my starting point" to receive
+                    a suggested starting point and checklist.
+                </p>
+
+            </div>
+
+            <div id="result" class="hidden" aria-live="polite"></div>
+
+        </div>
+
+    </section>
+
+
+    <section class="features">
+
+        <div class="features-heading">
+            <p class="section-label">03 — HOW IT HELPS</p>
+
+            <h2>Less confusion.<br>Clearer next steps.</h2>
+        </div>
+
+        <div class="feature-grid">
+
+            <article class="feature-card">
+                <div class="feature-icon purple">⌕</div>
+                <h3>Find a starting point</h3>
+                <p>
+                    Understand which certificate category
+                    may match your requirement.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon green">✓</div>
+                <h3>Prepare a checklist</h3>
+                <p>
+                    Review general preparation steps
+                    before beginning an application.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon orange">↗</div>
+                <h3>Verify information</h3>
+                <p>
+                    Learn what to check with the
+                    relevant official government source.
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <section class="notice">
+        <div class="notice-icon">!</div>
+
+        <div>
+            <h3>Important information</h3>
+
+            <p>
+                SevaGuide is a student-built educational prototype,
+                not an official government website. The guidance
+                is illustrative and may not reflect current rules.
+                Always verify requirements with the relevant
+                official portal or government office. This demo
+                does not submit applications or track real cases.
+            </p>
+        </div>
+    </section>
+
+</main>
+
+
+<footer>
+    <a href="#" class="logo footer-logo">
+        <span class="logo-icon">S</span>
+        <span>
+            SevaGuide
+            <small>PUBLIC SERVICE GUIDE</small>
+        </span>
+    </a>
+
+    <p>Student prototype · Not an official government service</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
